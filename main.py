@@ -1,6 +1,7 @@
 import requests
 import datetime as dt
 from twilio.rest import Client
+import os
 
 STOCK = input("What is the company stock name?")
 COMPANY_NAME = input("What is the company name?")
